@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-color: #F6DDBB;
+}
+
+#buttons {
+}
+
+.page {
+    height: 100vh;
+}
+
+.date {
+    height: 175px;
+    width: 175px;
+    border-style: solid;
+    border-radius: 50px;
+    
+    background-color: #F6DDBB;
+    color: white;
+    
+    line-height: 150px;
+    font-size: 50px;
+    text-align: center;
+    
+    transition: all 0.5s ease;
+}
+
+.date:hover {
+    color: white;
+    background-color: #CC0000;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+#night-one-menu {
+    background: url('http://www.hdwallpaperscool.com/wp-content/uploads/2014/03/awesome-fireworks-on-paris-city-Eiffel-Tower-download-best-desktop-hd-widescreen-wallpapers-of-eiffel-tower-for-free.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: dragon;
+}
+
+#night-one-title {
+    color: white;
+    font-size: 200px;
+    text-align: center;
+}
+
+.meal-name {
+    font-family: 'Gentium Basic';
+    font-size: 200px;
+}
+
+.menu-insert {
+    position: absolute; 
+    margin-top: 30vh;
+
+    height: 40vh;
+    width: 100%;
+    
+    background-color: white;
+}
+
+@font-face {
+	font-family: dragon;
+	src: url(dragon.otf);
+}

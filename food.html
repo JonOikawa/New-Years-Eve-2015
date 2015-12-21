@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Menu</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Gentium+Basic" />
+        
+        <script>
+            $(document).ready(function(){
+                $('#night-one').click(function(){
+                    $('html, body').animate({
+                        scrollTop: $("#night-one-menu").offset().top
+                    }, 400);
+                });
+            });
+            
+            
+        
+        </script>
+        
+        <link rel="stylesheet" type="text/css" href="menustylesheet.css"/>
+    </head>
+    
+    <body>
+        <div id="top-splash" class="page">
+            <div id="buttons">
+                <div class="date" id="night-one">
+                    31        
+                </div>
+            </div>
+        </div>
+        <div id="night-one-menu" class="page">
+            <div class="menu-insert">
+                <div class="meal-name">Dinner</div>
+            </div>
+            <div id="night-one-title">A Night In Little Italy</div>
+    
+    </body>
+
+</html>
